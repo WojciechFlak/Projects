@@ -4,12 +4,14 @@ brew update
 
 isPackageNotInstalled() {
 if brew ls --versions postgresql@14 > /dev/null; then
-  echo The package is installed
+  echo $1 is installed
 
 else
   brew install postgresql@14
 fi
 }
 
-isPackageNotInstalled
+isPackageNotInstalled postgresql@14
+
+pg_ctl -D /Users/wojciechflak/Library/Application\ Support/Postgres/var-15/ start
 
