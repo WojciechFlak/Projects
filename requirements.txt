@@ -1,4 +1,14 @@
+altgraph==0.17.3
+customtkinter==5.1.2
+darkdetect==0.8.0
+distlib==0.3.6
+filelock==3.9.1
+macholib==1.16.2
+modulegraph==0.19.3
+platformdirs==3.1.1
 psycopg2==2.9.5
+py2app==0.28.5
 SQLAlchemy==2.0.6
 SQLAlchemy-Utils==0.40.0
 typing_extensions==4.5.0
+virtualenv==20.21.0

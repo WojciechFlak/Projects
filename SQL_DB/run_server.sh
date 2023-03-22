@@ -4,7 +4,7 @@ brew update
 
 isPackageNotInstalled() {
 if brew ls --versions postgresql@14 > /dev/null; then
-  echo $1 is installed
+  echo "$1 is installed"
 
 else
   brew install postgresql@14
